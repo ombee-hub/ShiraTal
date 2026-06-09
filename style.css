@@ -148,10 +148,12 @@ footer .logo-txt small{color:rgba(255,255,255,.65)}
 .contact-info p{color:rgba(255,255,255,.8);font-size:18px;margin-bottom:30px}
 .contact-line{display:flex;align-items:center;gap:16px;margin-bottom:20px;font-size:18px}
 .contact-line .ic{width:48px;height:48px;border-radius:14px;background:rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;font-size:22px}
-.socials{display:flex;gap:14px;margin-top:28px}
-.socials a{width:46px;height:46px;border-radius:14px;background:rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;font-size:20px;transition:.25s}
-.socials a:hover{background:var(--coral);transform:translateY(-3px)}
-.socials a svg{width:19px;height:19px;fill:currentColor;display:block}
+.socials{display:flex;gap:18px;margin-top:28px;align-items:center}
+.socials a{display:flex;align-items:center;justify-content:center;color:#fff;opacity:.8;transition:.25s}
+.socials a:hover{color:var(--coral);opacity:1;transform:translateY(-3px)}
+.socials a svg{fill:currentColor;display:block}
+.socials a[aria-label="אינסטגרם"] svg{width:25px;height:25px}
+.socials a[aria-label="פייסבוק"] svg{width:23px;height:23px}
 form{position:relative;z-index:2;background:#fff;border-radius:26px;padding:34px;color:var(--ink)}
 form h3{font-size:24px;margin-bottom:8px}
 form .sub{color:var(--ink-soft);font-size:15px;margin-bottom:22px}
